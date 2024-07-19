@@ -79,12 +79,13 @@ Add additional notes to deploy this on a live system
 ## Problems and Solutions
 
 ### Missing Product Package: 
+If you meet this problem, please try:
+
     1. Show the hidden file of the project, and delete the "SmartTrade-main/SmartTrade.xcworkspace/xcshareddata/swiftpm/Package.resolved"
     2. Xcode -> Product -> Clean Buid Folder 
     3. Terminal -> cd "your path" -> pod install
     4. Xcode Run
 
-If you meet this problem, please 
 
 ## Versioning
 
